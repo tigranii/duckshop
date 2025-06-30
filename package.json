@@ -1,6 +1,4 @@
 ## 📂 **3. package.json (корневой)**
-Action: file_editor view /app/package.json
-Observation: Here's the result of running `cat -n` on /app/package.json:
 1|{
 2|  "name": "duckshop",
 3|  "version": "1.0.0",
