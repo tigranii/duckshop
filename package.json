@@ -1,22 +1,21 @@
-1|{
-2|  "name": "duckshop",
-3|  "version": "1.0.0",
-4|  "description": "Интернет-магазин утиных продуктов семьи Киряновых",
-5|  "private": true,
-6|  "scripts": {
-7|    "dev": "cd frontend && yarn start",
-8|    "build": "cd frontend && yarn build",
-9|    "start": "cd backend && python main.py",
-10|    "install-all": "cd frontend && yarn install && cd ../backend && pip install -r requirements.txt"
-11|  },
-12|  "keywords": [
-13|    "ecommerce",
-14|    "duck-products",
-15|    "farm",
-16|    "react",
-17|    "fastapi"
-18|  ],
-19|  "author": "Семья Кирьяновых",
-20|  "license": "MIT"
-21|}
-
+{
+  "name": "duckshop",
+  "version": "1.0.0",
+  "description": "Интернет-магазин утиных продуктов семьи Киряновых",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && yarn start",
+    "build": "cd frontend && yarn build",
+    "start": "cd backend && python main.py",
+    "install-all": "cd frontend && yarn install && cd ../backend && pip install -r requirements.txt"
+  },
+  "keywords": [
+    "ecommerce",
+    "duck-products",
+    "farm",
+    "react",
+    "fastapi"
+  ],
+  "author": "Семья Киряновых",
+  "license": "MIT"
+}
