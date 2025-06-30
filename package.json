@@ -1,0 +1,25 @@
+## 📂 **3. package.json (корневой)**
+Action: file_editor view /app/package.json
+Observation: Here's the result of running `cat -n` on /app/package.json:
+1|{
+2|  "name": "duckshop",
+3|  "version": "1.0.0",
+4|  "description": "Интернет-магазин утиных продуктов семьи Киряновых",
+5|  "private": true,
+6|  "scripts": {
+7|    "dev": "cd frontend && yarn start",
+8|    "build": "cd frontend && yarn build",
+9|    "start": "cd backend && python main.py",
+10|    "install-all": "cd frontend && yarn install && cd ../backend && pip install -r requirements.txt"
+11|  },
+12|  "keywords": [
+13|    "ecommerce",
+14|    "duck-products",
+15|    "farm",
+16|    "react",
+17|    "fastapi"
+18|  ],
+19|  "author": "Семья Киряновых",
+20|  "license": "MIT"
+21|}
+
