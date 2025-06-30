@@ -1,73 +1,49 @@
-# Dependencies
+## 📂 **2. .gitignore**
+Action: file_editor view /app/.gitignore
+Observation: Here's the result of running `cat -n` on /app/.gitignore:
+1|# Dependencies
+2|node_modules/
+3|backend/__pycache__/
+4|*.pyc
+5|*.pyo
+6|*.pyd
+7|.Python
+8|
+9|# Environment variables
+10|.env
+11|.env.local
+12|.env.development.local
+13|.env.test.local
+14|.env.production.local
+15|
+16|# Build outputs
+17|frontend/build/
+18|backend/dist/
+19|
+20|# IDE
+21|.vscode/
+22|.idea/
+23|*.swp
+24|*.swo
+25|
+26|# OS
+27|.DS_Store
+28|Thumbs.db
+29|
+30|# Logs
+31|*.log
+32|logs/
+33|
+34|# Database
+35|*.db
+36|*.sqlite
+37|
+38|# Testing
+39|coverage/
+40|.coverage
+41|.pytest_cache/
+42|
+43|# Temporary files
+44|*.tmp
+45|*.temp
 
-node_modules/
-
-backend/__pycache__/
-
-*.pyc
-
-*.pyo
-
-*.pyd
-
-.Python
-
-# Environment variables
-
-.env
-
-.env.local
-
-.env.development.local
-
-.env.test.local
-
-.env.production.local
-
-# Build outputs
-
-frontend/build/
-
-backend/dist/
-
-# IDE
-
-.vscode/
-
-.idea/
-
-*.swp
-
-*.swo
-
-# OS
-
-.DS_Store
-
-Thumbs.db
-
-# Logs
-
-*.log
-
-logs/
-
-# Database
-
-*.db
-
-*.sqlite
-
-# Testing
-
-coverage/
-
-.coverage
-
-.pytest_cache/
-
-# Temporary files
-
-*.tmp
-
-*.temp
